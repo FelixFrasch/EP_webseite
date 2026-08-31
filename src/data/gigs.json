@@ -1,0 +1,16 @@
+{
+  "_note": "PLATZHALTER-DATEN — noch nicht die echte Terminliste. Ersetzen, sobald echte Termine feststehen. Jeder Gig braucht nur ein ISO-Datum (date); ob er 'kommend' oder 'vergangen' ist, wird automatisch anhand des heutigen Datums berechnet (siehe src/lib/gigs.js) — ein Auftritt gilt bis Mitternacht nach seinem Tag als kommend.",
+  "gigs": [
+    { "id": "2026-09-12-ravensburg", "date": "2026-09-12", "location": "Stadtfest Bühne Süd", "city": "Ravensburg", "time": "21:00 – 23:30", "kind": "Stadtfest · Open Air" },
+    { "id": "2026-09-27-aulendorf", "date": "2026-09-27", "location": "Schützenhaus Aulendorf", "city": "Aulendorf", "time": "20:30", "kind": "Vereinsfest" },
+    { "id": "2026-10-11-ulm", "date": "2026-10-11", "location": "Club Douala", "city": "Ulm", "time": "22:00", "kind": "Clubshow" },
+    { "id": "2026-10-25-kressbronn", "date": "2026-10-25", "location": "Gut Kressbronn", "city": "Kressbronn", "time": "19:00", "kind": "Hochzeit (geschlossen)" },
+    { "id": "2026-11-08-wangen", "date": "2026-11-08", "location": "Kulturhalle", "city": "Wangen", "time": "20:00", "kind": "Herbstball" },
+    { "id": "2026-07-05-friedrichshafen", "date": "2026-07-05", "location": "Seenachtfest", "city": "Friedrichshafen", "time": "21:00", "kind": "Stadtfest" },
+    { "id": "2026-06-21-fischbach", "date": "2026-06-21", "location": "Sommerfest Fischbach", "city": "Fischbach", "time": "20:00", "kind": "Sommerfest" },
+    { "id": "2026-05-31-ravensburg", "date": "2026-05-31", "location": "Zehntscheuer", "city": "Ravensburg", "time": "20:30", "kind": "Clubshow" },
+    { "id": "2026-05-10-achberg", "date": "2026-05-10", "location": "Hochzeit Schloss Achberg", "city": "Achberg", "time": "18:00", "kind": "Hochzeit (geschlossen)" },
+    { "id": "2026-04-12-baienfurt", "date": "2026-04-12", "location": "Feuerwehrfest", "city": "Baienfurt", "time": "19:30", "kind": "Vereinsfest" },
+    { "id": "2026-02-22-weingarten", "date": "2026-02-22", "location": "Faschingsball TSV", "city": "Weingarten", "time": "20:00", "kind": "Faschingsball" }
+  ]
+}

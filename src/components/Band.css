@@ -1,0 +1,62 @@
+.band__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+@media (min-width: 640px) {
+  .band__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 860px) {
+  .band__grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+  }
+}
+
+.band-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.band-card__photo {
+  aspect-ratio: 3 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-alt);
+  border: 1px solid var(--text-10);
+  margin-bottom: 12px;
+}
+
+.band-card__photo span {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 6vw, 36px);
+  letter-spacing: 0.04em;
+  color: var(--text-35);
+}
+
+.band-card__name {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.band-card__instrument {
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.band-card__bio {
+  margin-top: 8px;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-38);
+}

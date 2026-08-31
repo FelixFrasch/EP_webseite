@@ -1,0 +1,121 @@
+.termine__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+
+.termine__count {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-45);
+}
+
+.termine__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--text-10);
+}
+
+.termine__row {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 14px;
+  align-items: start;
+  padding: 18px 4px;
+  background: var(--bg);
+}
+
+.termine__date {
+  text-align: center;
+  border: 1px solid var(--accent-35);
+  padding: 6px 0;
+}
+
+.termine__day {
+  font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.termine__month {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-60);
+}
+
+.termine__location {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.termine__city {
+  margin-top: 3px;
+  font-size: 15px;
+  color: var(--text-62);
+}
+
+.termine__meta {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--text-50);
+}
+
+.termine__meta-dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--text-35);
+}
+
+.termine__past {
+  margin-top: 44px;
+  padding-top: 22px;
+  border-top: 1px dashed var(--text-16);
+}
+
+.termine__past-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-38);
+  margin-bottom: 14px;
+}
+
+.termine__past-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.termine__past-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  align-items: baseline;
+  font-size: 14px;
+  color: var(--text-42);
+}
+
+.termine__past-date {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  min-width: 74px;
+}
+
+.termine__past-location {
+  color: var(--text-62);
+}

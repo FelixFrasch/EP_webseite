@@ -1,0 +1,10 @@
+{
+  "_note": "PLATZHALTER-SETLISTE — das ist nicht das echte Repertoire der Band. Ersetzen, sobald die echte Songliste feststeht.",
+  "categories": [
+    { "name": "Rock & Indie", "songs": ["Mr. Brightside", "Seven Nation Army", "Are You Gonna Be My Girl", "Take Me Out", "Sex on Fire", "I Bet You Look Good on the Dancefloor", "Basket Case", "Song 2", "Rebel Rebel", "Use Somebody", "Somebody Told Me", "Do I Wanna Know", "Smells Like Teen Spirit", "The Pretender", "Last Nite", "Sweet Child O' Mine", "Highway to Hell", "Chelsea Dagger", "Feel Good Inc.", "Livin' on a Prayer", "Killing in the Name", "Under the Bridge", "Zombie", "Wonderwall"] },
+    { "name": "Pop & Charts", "songs": ["Blinding Lights", "As It Was", "Levitating", "Shut Up and Dance", "Valerie", "Rolling in the Deep", "Uptown Funk", "Can't Stop the Feeling", "Flowers", "Dance Monkey", "Shape of You", "Don't Start Now", "Sunflower", "Riptide", "Someone Like You", "Titanium", "About Damn Time", "Cheap Thrills"] },
+    { "name": "Deutsch", "songs": ["Auf uns", "Applaus, Applaus", "Ein Hoch auf uns", "80 Millionen", "Astronaut", "Tage wie diese", "Hurra die Welt geht unter", "Alles neu", "Bochum", "Major Tom", "Dieser Weg", "Nur ein Wort", "Von hier an blind", "Wie schön du bist"] },
+    { "name": "Funk, Soul & Motown", "songs": ["Superstition", "Signed, Sealed, Delivered", "Get Lucky", "Treasure", "September", "Isn't She Lovely", "I Wish", "Ain't No Mountain High Enough", "Le Freak", "Higher Ground", "Sir Duke", "Respect"] },
+    { "name": "Party & Klassiker", "songs": ["Sweet Caroline", "Summer of '69", "Country Roads", "Living Next Door to Alice", "Skandal im Sperrbezirk", "Bye Bye Bye", "YMCA", "Ich war noch niemals in New York", "Atemlos", "Cordula Grün", "Marmor, Stein und Eisen bricht", "Griechischer Wein", "Time of My Life", "I Will Survive", "Waka Waka", "Angels"] }
+  ]
+}

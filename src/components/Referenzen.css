@@ -1,0 +1,41 @@
+.referenzen__intro {
+  margin: 0 0 26px;
+  max-width: 40ch;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--text-60);
+}
+
+.referenzen__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 640px) {
+  .referenzen__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.referenzen__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px 18px;
+  background: var(--bg-alt);
+  border: 1px solid var(--text-10);
+}
+
+.referenzen__quote-mark {
+  font-family: var(--font-display);
+  font-size: 32px;
+  line-height: 1;
+  color: var(--text-16);
+}
+
+.referenzen__placeholder {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--text-38);
+}

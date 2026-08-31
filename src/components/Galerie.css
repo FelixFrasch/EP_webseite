@@ -1,0 +1,25 @@
+.galerie__intro {
+  margin: 0 0 26px;
+  max-width: 40ch;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--text-60);
+}
+
+.galerie__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+@media (min-width: 640px) {
+  .galerie__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.galerie__tile {
+  aspect-ratio: 1;
+  background: var(--bg-alt);
+  border: 1px solid var(--text-10);
+}

@@ -1,0 +1,130 @@
+:root {
+  --bg: #0b0b0c;
+  --bg-alt: #101012;
+  --text: #f2f1ee;
+  --text-72: rgba(242, 241, 238, 0.72);
+  --text-66: rgba(242, 241, 238, 0.66);
+  --text-62: rgba(242, 241, 238, 0.62);
+  --text-60: rgba(242, 241, 238, 0.6);
+  --text-50: rgba(242, 241, 238, 0.5);
+  --text-45: rgba(242, 241, 238, 0.45);
+  --text-42: rgba(242, 241, 238, 0.42);
+  --text-38: rgba(242, 241, 238, 0.38);
+  --text-35: rgba(242, 241, 238, 0.35);
+  --text-30: rgba(242, 241, 238, 0.3);
+  --text-16: rgba(242, 241, 238, 0.16);
+  --text-10: rgba(242, 241, 238, 0.1);
+  --accent: #cdf53f;
+  --accent-hover: #e4ff8a;
+  --accent-35: rgba(205, 245, 63, 0.35);
+  --font-display: Anton, Impact, sans-serif;
+  --font-body: Barlow, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, Menlo, monospace;
+  --nav-breakpoint: 860px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+button {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.section {
+  padding: 68px 16px 72px;
+  border-top: 1px solid var(--text-10);
+}
+
+.section--alt {
+  background: var(--bg-alt);
+}
+
+.section-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-38);
+  margin-bottom: 14px;
+}
+
+.section-heading {
+  margin: 0 0 10px;
+  font-family: var(--font-display);
+  font-size: clamp(34px, 10vw, 64px);
+  line-height: 0.95;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 26px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  color: var(--bg);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid rgba(242, 241, 238, 0.3);
+  color: var(--text);
+}
+
+.btn-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
