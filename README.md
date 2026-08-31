@@ -5,14 +5,14 @@ One-Pager-Webseite für die Coverband Empty Promises. React + Vite, kein Backend
 ## Entwickeln
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ## Build
 
 ```bash
-npm run build
+pnpm build
 ```
 
 ## Platzhalter / offene Inhalte
