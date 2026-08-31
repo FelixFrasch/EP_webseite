@@ -1,0 +1,11 @@
+{
+  "members": [
+    { "name": "Helena Hein-Talmon", "instrument": "Gesang", "bio": "" },
+    { "name": "Barbara Linn", "instrument": "Gesang", "bio": "" },
+    { "name": "Felix Frasch", "instrument": "Keyboard", "bio": "" },
+    { "name": "André Ruzak", "instrument": "E-Gitarre", "bio": "" },
+    { "name": "Elijah Herth", "instrument": "E-Gitarre", "bio": "" },
+    { "name": "Hannah Kazda", "instrument": "Schlagzeug", "bio": "" },
+    { "name": "Cedric Hardtmann", "instrument": "Bass", "bio": "" }
+  ]
+}

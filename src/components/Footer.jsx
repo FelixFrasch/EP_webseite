@@ -1,5 +1,7 @@
 import "./Footer.css";
-import { SOCIAL_LINKS } from "../data/socials";
+import socialsData from "../data/socials.json";
+
+const SOCIAL_LINKS = socialsData.links;
 
 export default function Footer() {
   return (

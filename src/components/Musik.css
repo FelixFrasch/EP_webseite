@@ -38,6 +38,12 @@
   color: var(--text-35);
 }
 
+.musik__video-embed {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border: 0;
+}
+
 .musik__audio {
   display: flex;
   flex-direction: column;
@@ -54,11 +60,25 @@
   min-height: 52px;
   padding: 10px 4px;
   background: var(--bg-alt);
-  color: var(--text-38);
+  color: var(--text);
   font-size: 14px;
+}
+
+.musik__audio-row--placeholder {
+  color: var(--text-38);
 }
 
 .musik__audio-icon {
   color: var(--accent-35);
   font-size: 16px;
+}
+
+.musik__audio-title {
+  flex: 1 1 auto;
+}
+
+.musik__audio-player {
+  flex: 1 1 220px;
+  max-width: 100%;
+  height: 36px;
 }

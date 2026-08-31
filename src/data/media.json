@@ -1,0 +1,12 @@
+{
+  "_note": "youtubeUrl/url leer lassen = Platzhalter wird angezeigt. Einfach einen echten YouTube-Link (z.B. https://www.youtube.com/watch?v=... oder https://youtu.be/...) bzw. eine Audiodatei-URL eintragen, sobald vorhanden. Videos/Audiosamples können frei hinzugefügt oder entfernt werden.",
+  "videos": [
+    { "id": "video-1", "title": "Live-Video folgt", "youtubeUrl": "" },
+    { "id": "video-2", "title": "Live-Video folgt", "youtubeUrl": "" }
+  ],
+  "audioSamples": [
+    { "id": "audio-1", "title": "Audiosample folgt", "url": "" },
+    { "id": "audio-2", "title": "Audiosample folgt", "url": "" },
+    { "id": "audio-3", "title": "Audiosample folgt", "url": "" }
+  ]
+}

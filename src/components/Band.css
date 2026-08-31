@@ -57,6 +57,10 @@
 .band-card__bio {
   margin-top: 8px;
   font-size: 13px;
+  color: var(--text-62);
+}
+
+.band-card__bio--placeholder {
   font-style: italic;
   color: var(--text-38);
 }

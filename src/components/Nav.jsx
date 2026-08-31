@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./Nav.css";
-import { SOCIAL_LINKS } from "../data/socials";
+import socialsData from "../data/socials.json";
+
+const SOCIAL_LINKS = socialsData.links;
 
 const NAV_BREAKPOINT_QUERY = "(max-width: 859px)";
 
