@@ -14,6 +14,16 @@ const MENU_ITEMS = [
 
 const DESKTOP_LINKS = MENU_ITEMS.slice(0, 4);
 
+// The nav bar still takes up its own space in normal document flow (it only
+// becomes fixed-like once you've scrolled past it), so the hero section's
+// natural top sits below it. Following the "#top" anchor natively would
+// only scroll to that resting position — with the now-stuck nav overlapping
+// the top of the hero. Scrolling to 0 directly avoids that.
+function scrollToTop(e) {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 export default function Nav() {
   const [isNarrow, setIsNarrow] = useState(
     () => typeof window !== "undefined" && window.matchMedia(NAV_BREAKPOINT_QUERY).matches
@@ -40,7 +50,7 @@ export default function Nav() {
             <span className="nav__burger-bar nav__burger-bar--short" />
           </button>
         )}
-        <a href="#top" className="nav__brand">
+        <a href="#top" className="nav__brand" onClick={scrollToTop}>
           Empty<span className="nav__brand-dot">.</span>Promises
         </a>
         <div className="nav__spacer" />
