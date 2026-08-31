@@ -27,17 +27,17 @@ html {
   scroll-behavior: smooth;
 }
 
-.page {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 body {
   margin: 0;
+  overflow-x: hidden;
   background: var(--bg);
   color: var(--text);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: 100%;
 }
 
 * {
