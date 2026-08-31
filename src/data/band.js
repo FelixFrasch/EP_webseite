@@ -1,4 +1,6 @@
 export const BAND_MEMBERS = [
+  { name: "Helena Hein-Talmon", instrument: "Gesang" },
+  { name: "Barbara Linn", instrument: "Gesang" },
   { name: "Felix Frasch", instrument: "Keyboard" },
   { name: "André Ruzak", instrument: "E-Gitarre" },
   { name: "Elijah Herth", instrument: "E-Gitarre" },
